@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_26._9._9"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="0.1beta" Height="450" Width="800">
     <Grid>
-
+        <Label Content="0.1Beta" HorizontalAlignment="Left" Margin="23,17,0,0" FontSize="36" VerticalAlignment="Top"/>
+        <Label Content="0.1Beta" HorizontalAlignment="Left" Margin="22,74,0,0" FontSize="18" Foreground="Purple" FontStyle="Oblique" VerticalAlignment="Top"/>
     </Grid>
 </Window>
