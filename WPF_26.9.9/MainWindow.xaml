@@ -6,18 +6,17 @@
         xmlns:local="clr-namespace:WPF_26._9._9"
         mc:Ignorable="d"
         Title="使用者資料蒐集" Height="350" Width="500">
-	<Grid Margin="20">
-		<!-- TextBlock 用於靜態說明文字 -->
-		<TextBlock Text="請填寫個人資料" FontSize="20" FontWeight="Bold" Margin="10,10,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+    <Grid Margin="20">
+        <TextBlock Text="請填寫個人資料" FontSize="20" FontWeight="Bold" Margin="10,10,0,0" HorizontalAlignment="Left" VerticalAlignment="Top"/>
 
-		<!-- Label 與 TextBox 蒐集資料 -->
+		<!--蒐集資料-->
 		<Label Content="姓名:" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top"/>
 		<TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="70,60,0,0" VerticalAlignment="Top" Width="200" Height="26"/>
 
 		<Label Content="電話:" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top"/>
 		<TextBox x:Name="txtPhone" HorizontalAlignment="Left" Margin="70,100,0,0" VerticalAlignment="Top" Width="200" Height="26"/>
 
-		<!-- Button 與 Click 事件 -->
+		<!--事件-->
 		<Button x:Name="btnSubmit" Content="送出資料" HorizontalAlignment="Left" Margin="70,150,0,0" VerticalAlignment="Top" Width="100" Height="30" Click="btnSubmit_Click"/>
 	</Grid>
 </Window>
